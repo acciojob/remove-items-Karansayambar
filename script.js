@@ -2,6 +2,5 @@
 
 function selectAndRemoveColor(){
 	const selectColor = document.getElementById('colorSelect');
-	const selectedColor = selectColor.value;
 	selectColor.remove(selectColor.selectedIndex);
 }
